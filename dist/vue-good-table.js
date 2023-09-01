@@ -9647,6 +9647,8 @@
         };
       },
       pageChanged: function pageChanged(pagination) {
+        console.log('gọi pagination');
+        console.log(pagination);
         this.currentPage = pagination.currentPage;
         if (!pagination.noEmit) {
           var pageChangedEvent = this.pageChangedEvent();

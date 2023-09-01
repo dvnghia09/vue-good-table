@@ -1111,6 +1111,8 @@ export default {
     },
 
     pageChanged(pagination) {
+      console.log('gọi pagination')
+      console.log(pagination)
       this.currentPage = pagination.currentPage;
       if (!pagination.noEmit) {
         const pageChangedEvent = this.pageChangedEvent();
