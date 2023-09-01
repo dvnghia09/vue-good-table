@@ -9123,7 +9123,7 @@
         paginateDropdownAllowAll: true,
         paginationMode: 'records',
         paginationInfoFn: null,
-        currentPage: 2,
+        currentPage: 1,
         currentPerPage: 10,
         sorts: [],
         globalSearchTerm: '',
@@ -10149,6 +10149,7 @@
         this.currentPerPage = this.perPage;
       }
       this.initializeSort();
+      console.log('TÔi đã thay đổi package ho ');
     },
     components: {
       'vgt-pagination': __vue_component__$1,
