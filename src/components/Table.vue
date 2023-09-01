@@ -502,7 +502,7 @@ export default {
     paginationMode: 'records',
     paginationInfoFn: null,
 
-    currentPage: 1,
+    currentPage: 2,
     currentPerPage: 10,
     sorts: [],
     globalSearchTerm: '',
